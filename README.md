@@ -13,15 +13,15 @@ Incluye funciones para buscar palabras específicas como "usado" o términos rel
 
 ## 💻 Requisitos
 
-Necesitas tener instalado Tesseract OCR en tu máquina:
+- Necesitas tener instalado Tesseract OCR en tu máquina:
 
-https://github.com/tesseract-ocr/tesseract
+` https://github.com/tesseract-ocr/tesseract `
 
-Ajusta la ruta de Tesseract OCR según tu instalación:
+- Ajusta la ruta de Tesseract OCR según tu instalación:
 
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+` pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe' `
 
-Crea un archivo `requirements.txt` con el siguiente contenido:
+- Crea un archivo `requirements.txt` con el siguiente contenido:
 
 ```txt
 pytesseract==0.3.10
